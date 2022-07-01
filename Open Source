@@ -181,4 +181,7 @@ Event:InvokeServer(A_1)
 wait(100)
     end
 end)
+
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("OverK2ll#3442")
 end
